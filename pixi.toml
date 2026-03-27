@@ -1,0 +1,24 @@
+[workspace]
+authors = ["Ross Slater <36970340+rossawslater@users.noreply.github.com>"]
+channels = ["conda-forge"]
+name = "aef-antarctica"
+platforms = ["osx-arm64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+jupyter = ">=1.1.1,<2"
+ipywidgets = ">=8.1.8,<9"
+ipykernel = ">=7.2.0,<8"
+pixi-kernel = ">=0.7.1,<0.8"
+xarray = ">=2026.2.0,<2027"
+zarr = ">=3.1.5,<4"
+rioxarray = ">=0.22.0,<0.23"
+scikit-learn = ">=1.8.0,<2"
+numpy = ">=2.4.3,<3"
+matplotlib = ">=3.10.8,<4"
+cartopy = ">=0.25.0,<0.26"
+
+[pypi-dependencies]
+aef-loader = ">=0.2.1, <0.3"
